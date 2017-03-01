@@ -11,7 +11,7 @@ under real-time constraints. It currently support FD rules and CFD rules. More d
 
 First, you need a cluster of machines in which Storm, Kafka and Zookeeper are installed. Next, download Bleach code and compile it by mvn:
 
-    $ git clone git://github.com:ychtian/Bleach && cd storm/examples/storm-starter
+    $ git clone git://github.com:ychtian/Bleach
     $ cd Bleach && mvn assembly:assembly
 
 Then, submit the jar to Storm cluster to start Bleach:
